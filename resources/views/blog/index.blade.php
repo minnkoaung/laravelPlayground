@@ -18,6 +18,7 @@
 				<!-- strip_tags  -->
 				<h1>{{ strip_tags($article->title) }}</h1>
 				<p>{{ strip_tags($article->body) }}</p>
+				<p><a href="{{ routes('blog.edit',$articles->id)}}" class="btn btn-warning btn-xs">Edit</a></p>
 			</div>
 		</div>	
 		@endforeach

@@ -9,9 +9,6 @@
 	<div class="container">
 		@yield("content")
 	</div>
-
-	
-
 	<script src="//cdn.ckeditor.com/4.6.2/basic/ckeditor.js"></script>
 	@yield ('footer')
 </body>

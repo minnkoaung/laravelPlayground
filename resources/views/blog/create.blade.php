@@ -2,9 +2,6 @@
 @section("content")
 	<div class="row">
 		<div class="col-md-12">
-		if(Blog::store){
-			<p>Yourdata has been save</p>
-		}
 			<form action="{{ route('blog.store') }}" method="POST">
 				{{ csrf_field() }}
 					<div class="form-group">
