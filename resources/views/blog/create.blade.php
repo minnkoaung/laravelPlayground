@@ -14,7 +14,7 @@
 					    <textarea name="body" id="body" class="form-control"></textarea>
 					</div>
 
-					<div class="form-group"> 
+					<div class="form-group">
 					    <button type="submit" class="btn btn-primary">Create Blog</button>
 					</div>
 			</form>
